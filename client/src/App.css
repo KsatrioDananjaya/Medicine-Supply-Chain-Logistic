@@ -1,5 +1,5 @@
 * {
-    background-color: white;
+    background-color: wheat;
 }
 
 .container {
@@ -20,36 +20,81 @@ hr{
     margin-top: 5rem;
 }
 .header {
-    border: 2px;
-    padding: 10px;
+    background-color: azure;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 70%; 
+    margin: auto; 
 }
 .register {
     background-color: azure;
-    border: 2px solid #ccc; /* Border color and width */
-    border-radius: 8px; /* Border radius for rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
-    padding: 20px; /* Add padding to create some space inside the border */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 60%; 
+    margin: auto; 
 }
 .ordermedicines {
     background-color: azure;
-    border: 2px solid #ccc; /* Border color and width */
-    border-radius: 8px; /* Border radius for rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
-    padding: 20px; /* Add padding to create some space inside the border */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 60%; 
+    margin: auto; 
 }
 .controlchain {
     background-color: azure;
-    border: 2px solid #ccc; /* Border color and width */
-    border-radius: 8px; /* Border radius for rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
-    padding: 20px; /* Add padding to create some space inside the border */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 60%; 
+    margin: auto; 
 }
 .track {
-    border: 2px solid #ccc; /* Border color and width */
-    border-radius: 8px; /* Border radius for rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect */
-    padding: 20px; /* Add padding to create so */
-}
+    background-color: azure;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 60%; 
+    margin: auto; 
+  }
+  .button {
+    background-color: azure;
+    color: #000; /* Set the initial text color */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
   
+  .btn-outline-primary:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+    color: #000 !important; /* Set the text color on hover */
+  }
+h6 {
+    background-color: transparent;
+}
+h5 {
+    background-color: transparent;
+}
+u {
+    background-color: transparent;
+}
+b {
+    background-color: transparent;
+}
+h3 {
+    background-color: transparent;
+}
 
   

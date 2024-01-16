@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./styles.css";
 import Web3 from "web3";
 import SupplyChainABI from "./artifacts/SupplyChain.json";
 import { useNavigate } from "react-router-dom";

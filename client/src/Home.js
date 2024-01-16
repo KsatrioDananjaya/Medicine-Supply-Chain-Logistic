@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "./App.css";
 
 function Home() {
   const navigate = useNavigate();
@@ -18,24 +19,19 @@ function Home() {
   return (
     <div className="container">
       <div className="header">
-        <h3>Pharmaceutical Supply Chain Flow :- </h3>
+        <h3>Medicine Supply Chain Logistic</h3>
       </div>
       <br />
       <div className="register">
-        <h6>
-          (Note: Here <u>Owner</u> is the person who deployed the smart contract
-          on the blockchain)
-        </h6>
         <h5>
           Step 1: Owner Should Register Raw material suppliers ,Manufacturers,
           Distributors and Retailers
         </h5>
-        <h6>(Note: This is a one time step. Skip to step 2 if already done)</h6>
         <button
           onClick={redirect_to_roles}
           className="btn btn-outline-primary btn-sm"
         >
-          Register
+          <b>Register</b>
         </button>
       </div>
       <br />
@@ -45,7 +41,7 @@ function Home() {
           onClick={redirect_to_addmed}
           className="btn btn-outline-primary btn-sm"
         >
-          Order Medicines
+          <b>Order Medicines</b>
         </button>
       </div>
       <br />
@@ -55,7 +51,7 @@ function Home() {
           onClick={redirect_to_supply}
           className="btn btn-outline-primary btn-sm"
         >
-          Control Supply Chain
+          <b>Control Supply Chain</b>
         </button>
       </div>
       <br />
@@ -67,7 +63,7 @@ function Home() {
           onClick={redirect_to_track}
           className="btn btn-outline-primary btn-sm"
         >
-          Track Medicines
+          <b>Track Medicines</b>
         </button>
       </div>
     </div>
